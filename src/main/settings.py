@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'quiz.apps.QuizConfig',
+    'nested_admin',
 ]
 
 MIDDLEWARE = [
