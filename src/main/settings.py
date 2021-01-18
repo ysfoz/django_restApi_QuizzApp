@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'nested_admin',
     'users.apps.UsersConfig',
     'rest_framework.authtoken',
+    'dj_rest_auth'
 ]
 
 MIDDLEWARE = [
