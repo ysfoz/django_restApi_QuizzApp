@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .serializer import RegisterSerializer
+from .serializer import RegistrationSerializer
 from rest_framework import generics
 from django.contrib.auth.models import User
 
@@ -7,4 +7,4 @@ from django.contrib.auth.models import User
 
 class RegisterView(generics.CreateAPIView):
     queryset =User.objects.all()
-    serializer_class = RegisterSerializer
+    serializer_class = RegistrationSerializer
